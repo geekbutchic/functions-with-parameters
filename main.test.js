@@ -3,35 +3,32 @@
 Your code goes below.
 
 */
-x = 3;
-y = 10;
-z = 5;
-name = "Sonny";
-greeting = "HEY"
+let x = 3;
+let y = 10;
+let z = 5;
+let name = 'Sonny';
+let greeting = 'HEY';
 
-function multiply (num) {
+multiply = (num) => {
   x = x * num;
 }
 
-function modYBy (num) {
+modYBy = (num) => {
   y = y % num;
 }
 
-function opposite (num) {
+// Functions opposes sum 
+opposite = (num) => {
   z = num * -1;
 }
-// z = -num;
 
-function makeFullName(lastName) {
-  name = name + " " + lastName;
+makeFullName = (str) => {
+  name = name + ' ' + str;
 }
 
-function yellAt (name) {
-  greeting = greeting + ", " + name + "!";
+yellAt = (str) => {
+  greeting = greeting + ', ' + str + '!';
 }
-
-
-
 
 /*********************************************************************************************************************
 
