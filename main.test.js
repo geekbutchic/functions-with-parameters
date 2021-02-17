@@ -19,6 +19,8 @@ modYBy = (num) => {
 
 // Functions opposes sum 
 opposite = (num) => {
+  // z = num - num - num;
+  // z = -num;
   z = num * -1;
 }
 
